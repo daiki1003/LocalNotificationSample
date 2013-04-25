@@ -2,11 +2,11 @@
 //  AppDelegate.m
 //  LocalNotificationSample
 //
-//  Created by A12628 on 13/04/26.
 //  Copyright (c) 2013年 Personal. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -21,6 +21,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [ViewController viewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

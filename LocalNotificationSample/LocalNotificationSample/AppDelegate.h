@@ -2,7 +2,6 @@
 //  AppDelegate.h
 //  LocalNotificationSample
 //
-//  Created by A12628 on 13/04/26.
 //  Copyright (c) 2013年 Personal. All rights reserved.
 //
 
